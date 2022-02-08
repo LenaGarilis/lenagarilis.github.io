@@ -453,7 +453,7 @@ td {
   min-width: 110rem;
   min-height: 55rem;
   display:flex;
-  z-index: 1000;
+  z-index: 2;
 }
 .contact-container .contactInfo {
   position: absolute;
