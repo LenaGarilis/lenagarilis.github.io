@@ -428,19 +428,21 @@ td {
 
      /* <!-- Projects Left section - Descriptions --> */
 .button-git {
-  border-color: var(--color-additional);
+  border: 1px solid var(--color-additional);
   background-color: transparent;
   border-radius: 0.5rem;
+  padding: 2px 6px 2px 6px;
   padding: 0.5rem 1.5rem;
   text-decoration: none;
   color: var(--color-additional);
   font-size: 1rem;
+  
 }
 .button-git:hover {
     background-color: var(--color-additional);
     color: var(--color-lighttext);
 }
-button::before {
+.button-git::before {
     font-family: "Font Awesome 5 Brands"; font-weight: 900; content: "\f09b";
 }
 
